@@ -12,7 +12,7 @@ function AutoSellGreys:RepairEquipment()
 end
 
 function AutoSellGreys:SellGreys()
-    for bag = 0, NUM_BAG_SLOTS do
+    for bag = BACKPACK_CONTAINER, NUM_TOTAL_EQUIPPED_BAG_SLOTS do
         for slot = 1, C_Container.GetContainerNumSlots(bag) do
             if C_Item.GetItemQualityByID(C_Container.GetContainerItemLink(bag, slot)) == 0 then
                 C_Container.UseContainerItem(bag, slot)
