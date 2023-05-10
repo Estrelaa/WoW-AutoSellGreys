@@ -1,8 +1,8 @@
 ## Interface: 100100
 ## Title: AutoSellGreys
 ## Author: Estrela
-## Version: 1
+## Version: 1.1
 ## DefaultState: Enabled
-## Notes: Auto sell your greys 
+## Notes: Auto sell your greys
 
 src/AutoSellGreys.lua
