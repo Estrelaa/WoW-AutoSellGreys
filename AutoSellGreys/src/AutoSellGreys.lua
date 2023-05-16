@@ -1,8 +1,8 @@
 local AutoSellGreys = CreateFrame("Frame")
 
-function AutoSellGreys:AutoDoStuff(self, event, ...)
-    AutoSellGreys.RepairEquipment(self)
-    AutoSellGreys.SellGreys(self)
+function AutoSellGreys:OnVenderInteract(self, event, ...)
+    AutoSellGreys.RepairEquipment()
+    AutoSellGreys.SellGreys()
 end
 
 function AutoSellGreys:RepairEquipment()
@@ -24,4 +24,4 @@ function AutoSellGreys:SellGreys()
 end
 
 AutoSellGreys:RegisterEvent("MERCHANT_SHOW")
-AutoSellGreys:SetScript("OnEvent", AutoSellGreys.AutoDoStuff)
+AutoSellGreys:SetScript("OnEvent", AutoSellGreys.OnVenderInteract)
