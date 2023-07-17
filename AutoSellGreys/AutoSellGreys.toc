@@ -1,7 +1,7 @@
-## Interface: 100100
+## Interface: 100150
 ## Title: AutoSellGreys
 ## Author: Estrela
-## Version: 1.1
+## Version: 1.2
 ## DefaultState: Enabled
 ## Notes: Auto sell your greys
 
