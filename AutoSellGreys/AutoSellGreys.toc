@@ -1,4 +1,4 @@
-## Interface: 100170
+## Interface: 100200
 ## Title: AutoSellGreys
 ## Author: Estrela
 ## Version: 1.3
